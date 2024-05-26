@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .stopwatch-continer {
   background-image: url("https://static.vecteezy.com/system/resources/previews/011/208/814/non_2x/technology-background-analog-clock-time-vector.jpg");
   background-size: cover;
@@ -14,6 +16,7 @@
   color: #000000;
   font-size: 28px;
   margin-top: 0;
+  font-family: "Roboto";
 }
 .stopwatch-card {
   background-color: #ffffff;
@@ -30,6 +33,7 @@
   font-size: 42px;
   margin-top: 0;
   color: #343434;
+  font-family: "Roboto";
 }
 .button {
   font-size: 15px;
@@ -37,6 +41,7 @@
   color: #ffffff;
   margin: 0px 10px;
   padding: 8px 14px;
+  font-family: "Roboto";
 }
 .button:focus {
   outline: none;
