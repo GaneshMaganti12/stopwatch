@@ -46,7 +46,7 @@ function App() {
   }, [min]);
 
   const handleReset = () => {
-    if (intervalRef.current && restart) {
+    if (intervalRef.current && reset) {
       clearInterval(intervalRef.current);
       setSec(0);
       setMin(0);
