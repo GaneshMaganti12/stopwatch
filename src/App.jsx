@@ -9,7 +9,7 @@ function App() {
   const [isPause, setIsPause] = useState(false);
   const [start, setStart] = useState(true);
   const [stop, setStop] = useState(false);
-  const [restart, setRestart] = useState(false);
+  const [reset, setReset] = useState(false);
 
   const handleStop = () => {
     if (intervalRef.current && stop) {
@@ -34,7 +34,7 @@ function App() {
       setIsPause(false);
     }
     setStop(true);
-    setRestart(true);
+    setReset(true);
     setStart(false);
   };
 
@@ -52,7 +52,7 @@ function App() {
       setMin(0);
       setIsPause(false);
       setStart(true);
-      setRestart(false);
+      setReset(false);
     }
   };
 
